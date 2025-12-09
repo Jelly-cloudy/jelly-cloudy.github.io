@@ -1,5 +1,5 @@
 html, body.Body {
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;}
 
@@ -13,7 +13,7 @@ html, body.Body {
     text-transform: uppercase;
     text-shadow: 2px 2px 5px gray;
     margin-bottom: 10px;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0;}
 
     .company-description {
@@ -22,8 +22,10 @@ html, body.Body {
     color: #1f1e1e;
     text-align: center;
     line-height: 1.5;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0;}
+
+.navbar { text-align: center}    
 
 nav ul {
     list-style: none;          
@@ -32,8 +34,12 @@ nav ul {
     display: flex;            
     justify-content: center;   
     gap: 40px;
-    background-color: #c5c5c5;
-    padding: 0}
+    background-color: #ffffff;
+    padding: 30;
+    justify-content: center; /* горизонтальное центрирование */
+    flex-wrap: wrap}
+
+li {display: inline-block} 
 
 nav a {
     font-family: 'Georgia', serif;
@@ -42,18 +48,18 @@ nav a {
     text-decoration: none; 
     text-shadow: 1px 1px 2px gray;
     font-weight: bold;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0} 
     
 nav a.active {
     text-decoration: underline;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0}
 
 
 #navigation_list {
     display: none;
-    background-color: #c5c5c5;}
+    background-color: #ffffff;}
     
     
 #menu-button {
@@ -96,14 +102,14 @@ nav a.active {
 
 
 .main {text-align: center;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0}
     
 .image-block {
     display: inline-block;      
     text-align: center;          
     margin: 10px;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0}
 
 
@@ -116,7 +122,7 @@ nav a.active {
     border: 6px solid rgb(80, 1, 1);
     border-radius: 10px;
     box-shadow: 2px 2px 5px gray;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0}
 
 .caption {
@@ -126,7 +132,7 @@ nav a.active {
     color: rgb(80, 1, 1);
     text-shadow: 1px 1px 2px gray;
     font-size: 20px;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0}
 
 .main_text_center{
@@ -137,7 +143,7 @@ nav a.active {
     color: #1f1e1e;
     text-align: center;
     line-height: 1.5;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     padding: 0}
 
 #Characters {
