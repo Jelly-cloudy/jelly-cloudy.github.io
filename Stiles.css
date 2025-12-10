@@ -36,7 +36,7 @@ nav ul {
     gap: 40px;
     background-color: #ffffff;
     padding: 30;
-    justify-content: center; /* горизонтальное центрирование */
+    justify-content: center;
     flex-wrap: wrap}
 
 li {display: inline-block} 
